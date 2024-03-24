@@ -18,8 +18,8 @@ A cellular automaton played on a 2D grid. Each cell follows 4 rules:
 int main()
 {
     GameOfLife state;
-    int width = 10;
-    int height = 10;
+    int width = 50;
+    int height = 20;
     // Creates a random state, taking a width and height.
     // The user can also use their own state by using the set_board_state method
     state.random_state(width, height);
